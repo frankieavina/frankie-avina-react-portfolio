@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://frankieavina.com/frankieavina-portfolio",
+  "homepage": "https://frankieavina.com/frankie-avina-portfolio/",
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
