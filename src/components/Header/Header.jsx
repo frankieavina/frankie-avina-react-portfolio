@@ -18,6 +18,8 @@ a:visited {
 }
 h1 {
   margin: 1rem 0;
+  position: relative;
+  z-index:9999;
 }
 span {
   padding: 0 1rem;
@@ -29,6 +31,8 @@ nav {
   }
   li {
     padding-left: 1.5rem;
+    position: relative;
+    z-index:9999;
     &:first-child {
       padding-left: 0;
     }

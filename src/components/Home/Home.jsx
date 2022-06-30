@@ -9,8 +9,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 height: 88vh;
-position: relative;
-z-index:9999;
 p{
   button{
     background-color: #e7e7e7;
@@ -19,6 +17,8 @@ p{
     border: none;
     border-radius: 5px;
     width: 5%;
+    position: relative;
+    z-index:9999;
   }
   button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);

@@ -9,3 +9,19 @@
   bottom: 4rem;
   left: 1rem;
 }
+
+.icons{
+  margin:0.5rem;
+  position:relative;
+  z-index:9999;
+}
+
+.icons:hover{
+  cursor: pointer;
+  filter: brightness(180%);
+}
+
+.icons:hover,
+.icons:focus {
+  transform: translateY(-3px);
+}

@@ -38,9 +38,9 @@ function App(props) {
             </Route>
           </Routes>
           <div className='links'>
-            <GitHubIcon style={{margin:'0.5rem'}} fontSize='large' />
-            <EmailIcon  style={{margin:'0.5rem'}} fontSize='large' />
-            <LinkedInIcon  style={{margin:'0.5rem'}} fontSize='large' />
+            <GitHubIcon className='icons'  fontSize='large' />
+            <EmailIcon  className='icons' fontSize='large' />
+            <LinkedInIcon  className='icons' fontSize='large' />
           </div>
         </div>
       ): 
