@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/frankie-avina-portfolio/static/css/main.fefa458b.css",
-    "main.js": "/frankie-avina-portfolio/static/js/main.ed9c3e9d.js",
+    "main.css": "/frankie-avina-portfolio/static/css/main.76d639bc.css",
+    "main.js": "/frankie-avina-portfolio/static/js/main.3311a2b3.js",
     "index.html": "/frankie-avina-portfolio/index.html",
-    "main.fefa458b.css.map": "/frankie-avina-portfolio/static/css/main.fefa458b.css.map",
-    "main.ed9c3e9d.js.map": "/frankie-avina-portfolio/static/js/main.ed9c3e9d.js.map"
+    "main.76d639bc.css.map": "/frankie-avina-portfolio/static/css/main.76d639bc.css.map",
+    "main.3311a2b3.js.map": "/frankie-avina-portfolio/static/js/main.3311a2b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.fefa458b.css",
-    "static/js/main.ed9c3e9d.js"
+    "static/css/main.76d639bc.css",
+    "static/js/main.3311a2b3.js"
   ]
 }
