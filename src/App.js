@@ -9,11 +9,12 @@ import Projects from './pages/Projects.jsx';
 import Resume from './pages/Resume.jsx';
 import Contact from './pages/Contact.jsx';
 import Loading from './components/Loading/Loading';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import EmailIcon from '@material-ui/icons/Email';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import DeleteIcon from '@mui/icons-material/Delete';
 
-function App() {
+function App(props) {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(()=>{
       setTimeout(() => {
@@ -38,9 +39,9 @@ function App() {
             </Route>
           </Routes>
           <div className='links'>
-            <GitHubIcon style={{margin:'0.5rem'}} fontSize='large'/>
-            <EmailIcon  style={{margin:'0.5rem'}} fontSize='large'/>
-            <LinkedInIcon  style={{margin:'0.5rem'}} fontSize='large'/>
+            <GitHubIcon style={{margin:'0.5rem'}} fontSize='large' />
+            <EmailIcon  style={{margin:'0.5rem'}} fontSize='large' />
+            <LinkedInIcon  style={{margin:'0.5rem'}} fontSize='large' />
           </div>
         </div>
       ): 

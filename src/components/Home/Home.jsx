@@ -8,7 +8,8 @@ const HomeWrapper = styled.main`
 display: flex;
 flex-direction: column;
 justify-content: center;
-height: 86vh;
+height: 88vh;
+position: relative;
 z-index:9999;
 p{
   button{
@@ -26,7 +27,7 @@ p{
 `
 
 function Home() {
-  const navigate = useNavigate;
+  const navigate = useNavigate();
 
   return (
     <>
