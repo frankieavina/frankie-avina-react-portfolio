@@ -8,7 +8,7 @@ const HomeWrapper = styled.main`
 display: flex;
 flex-direction: column;
 justify-content: center;
-height: 88vh;
+height: 90vh;
 p{
   button{
     background-color: #e7e7e7;
@@ -18,7 +18,7 @@ p{
     border-radius: 5px;
     width: 5%;
     position: relative;
-    z-index:9999;
+    z-index:3;
   }
   button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);

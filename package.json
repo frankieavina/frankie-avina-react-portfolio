@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://frankieavina.com/frankie-avina-portfolio/",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.8.4",
