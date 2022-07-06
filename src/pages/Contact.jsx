@@ -44,6 +44,14 @@ h1{
   }
 }
 
+.answer{
+  margin-top: 2rem;
+    width: 15rem;
+    padding 0.5rem;
+    border-radius: 5px;
+    border: groove
+}
+
 b:hover{
   cursor: pointer;
 }
@@ -146,7 +154,7 @@ function Contact() {
                 />
               </div>
               <p> A panda is black and: <input type='text' name='test_question' 
-                id='test_question' placeholder='input answer' required
+                id='test_question' placeholder='input answer' className='answer' required
                 onChange={e => setAnswer(e.target.value)}
                 />
               </p>
