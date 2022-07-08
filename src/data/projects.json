@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "title": "WarCraft 3 Community Review Web Application",
+        "image":"warcraft.png",
+        "github":"https://github.com/bertman12/Warcraft-Legends",
+        "external":"",
+        "tech":[
+            "Angular","Express.js","imagekit.io","MySQL"
+        ],
+        "description":"Created a place where content creators for WorldCarft 3 can share there creativity and keep the Community alive. Designed Register and Login components in Angular, and Node.js backend with MySql database that contained user autherization using JWT authentification."
+    },
+    {
+        "id": 2,
+        "title": "Demons Bucking Bulls Website",
+        "image":"demonios.png",
+        "github":"",
+        "external":"https://www.losdemoniosapretalados.com/",
+        "tech":[
+            "HTML and CSS","Bootstrap","PHP","HostGator"
+        ],
+        "description":"Develped a front-end website to not only promote a buisness but also keep a track of inventory as well as letting future customers take a look at their cattle, future events, and products. Tools and languages used to develop this application were HTML, CSS, Bootstrap, PHP, Vanilla JS and HostGator."
+    },
+    {
+        "id": 1,
+        "title": "Discord BVT Class Bot",
+        "image":"discordbot.png",
+        "github":"https://github.com/frankieavina/BVT_Discord_Bot_V1.0",
+        "external":"",
+        "tech":[
+            "Discord API","JavaScript","Node.js"
+        ],
+        "description":"Worked in with a BVT Instructor to build a Discord bot and implement some functionalities that would later be incorporated into future classes to facilitate taking role as well moderating the channel. discord.js is a powerful Node.js module that allowed to easily interact with the Discord API to automate some of the functionalities."
+    }
+
+]
