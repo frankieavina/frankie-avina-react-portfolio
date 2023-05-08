@@ -38,7 +38,7 @@ function Home() {
             adventures.
           </p>
           <p>Always working magic and building singular digital experiences. View my <button onClick={() => navigate('/projects')}>Projects</button>, 
-            <button onClick={() => navigate('/resume')} >Resume</button>, or send me a <button onClick={() => navigate('/message')}>message</button>. 
+            <button onClick={() => navigate('/resume')} >Resume</button>, or send me a <button onClick={() => navigate('/message')}>Message</button>. 
           </p>
       </HomeWrapper>
       <Particle />
