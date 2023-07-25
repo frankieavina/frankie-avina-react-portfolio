@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "California State University of Fresno",
+        "description": "Decided to pursue a career in computer engineering. Specific coursework topics include Computer Architecture, Computer Communication, Programming, Electronics, Embedded Systems, Digital Signal Processing and Computer Networking."
+    },
+    {
+        "id": 2,
+        "title": "Bay Valley Tech Academy",
+        "description": "Joined Bay Valley Tech where I learned about software development. The course revolved around HTML, CSS, JS, Node, MySQL and Angular to design full stack applications."
+    },
+    {
+        "id": 3,
+        "title": "Stanislaus County of Education Intern",
+        "description": ""
+    }
+]

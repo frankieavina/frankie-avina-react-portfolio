@@ -3,6 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 import featuredProjects from '../data/projects.json';
 import ProjectCard from '../components/Projects/ProjectCard';
+import { PageHeader } from '../common/styles/page';
+import Row from 'react-bootstrap/Row';
 
 const ProjectsWrapper = styled.section`
 display: flex;
@@ -29,14 +31,15 @@ margin: 0 auto;
 function Projects() {
   return (
     <ProjectsWrapper>
-      <h2>Some Things I've Built</h2>
+      <PageHeader>
+        <h1>Projects</h1>
+      </PageHeader>
       {featuredProjects ? 
         featuredProjects.map((data) =>
         <ProjectCard info={data} />
       ):
         <p>Loading...</p>
       }
-
     </ProjectsWrapper>
   )
 }

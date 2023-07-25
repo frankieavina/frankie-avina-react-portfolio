@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+// use google drive to link resume 
+import Resume from '../../assets/web-developer-francisco-avina.pdf';
 
 const HeaderWrapper = styled.header`
 align-items: center;
@@ -32,7 +34,7 @@ nav {
   li {
     padding-left: 1.5rem;
     position: relative;
-    z-index:9999;
+    z-index:99;
     &:first-child {
       padding-left: 0;
     }
@@ -43,20 +45,39 @@ nav {
     font-weight: 700;
     text-decoration: none;
     &:hover {
-      color: lightgrey;
+      color: black;
     }
     &.active {
       color: red;
-      // font-style: italic;
+      font-style: italic;
       &:hover {
-        color: yellow;
+        color: black;
       }
     }
   }
 }
 `;
 
+const ResumeButton = styled.button`
+  color: black !important;
+  position:relative;
+  z-index: 500;
+  padding: 0.5rem 1rem; 
+  background-color: #e7e7e7;
+  color: black;
+  border:none;
+  border-radius: 10px;
+  &:hover {
+    box-shadow: 0 15px 30px -8px white;
+    border: 0.5px solid black;
+   padding: 0.5rem 0.9505rem; 
+  }
+`;
+
+
+
 function Header() {
+
   return (
     <HeaderWrapper>
         <Link to="/">
@@ -65,19 +86,21 @@ function Header() {
         <nav>
         <ul>
             <li>
-            <NavLink to="/">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-            <NavLink to="/about">About</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-            <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-            <NavLink to="/resume">Resume</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
             <li>
-            <NavLink to="/contact">Contact</NavLink>
+              <ResumeButton href={Resume} target="_blank" rel="noopener noreferrer">
+                Resume
+              </ResumeButton>
             </li>
         </ul>
         </nav>

@@ -12,14 +12,16 @@ import Loading from './components/Loading/Loading';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App(props) {
+  /////////////// need to change back to 4 sec delay
   const [isLoading, setIsLoading] = useState(true);
   useEffect(()=>{
       setTimeout(() => {
           console.log("Delayed for 5 second.");
           setIsLoading(false);
-        }, 7000)
+        }, 400)
   },[]);
 
   return (

@@ -55,7 +55,7 @@ function Loading() {
       <div className='image'>
           <i className={`fa ${images}`}></i>
       </div>
-      <span>{num}%</span>
+      <span>Welcome!</span>
     </div>
   )
 }

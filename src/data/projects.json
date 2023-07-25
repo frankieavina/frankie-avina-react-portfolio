@@ -22,7 +22,7 @@
         "description":"Develped a front-end website to not only promote a buisness but also keep a track of inventory as well as letting future customers take a look at their cattle, future events, and products. Tools and languages used to develop this application were HTML, CSS, Bootstrap, PHP, Vanilla JS and HostGator."
     },
     {
-        "id": 1,
+        "id": 3,
         "title": "Discord BVT Class Bot",
         "image":"discordbot.png",
         "github":"https://github.com/frankieavina/BVT_Discord_Bot_V1.0",
